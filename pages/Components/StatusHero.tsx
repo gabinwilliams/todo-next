@@ -4,15 +4,20 @@ type Props = {};
 
 const StatusHero = (props: Props) => {
     return (
-        <div className="flex justify-center py-5">
-            <div className="border bg-black-500 w-1/3 px-2 py-3 rounded-2xl">
-                circle container
+        <div className="flex justify-center my-5">
+            <div className="flex justify-around items-center border border-amber-100 bg-black-500  lg:w-1/3 w-1/2 px-2 py-3 rounded-2xl">
                 <div>
-                    <h3>Todo Done</h3>
-                    <h5>Keep it up</h5>
+                    <h3 className=" text-amber-100 font-serif font-extrabold text-lg">
+                        Todo Done
+                    </h3>
+                    <h5 className=" text-amber-50 font-light text-sm">
+                        Keep it up
+                    </h5>
                 </div>
                 <div>
-                    <div>circle here</div>
+                    <div className="flex items-center justify-center w-16 h-16 bg-orange-500 rounded-full">
+                        <span className="font-bold">1/2</span>
+                    </div>
                 </div>
             </div>
         </div>
