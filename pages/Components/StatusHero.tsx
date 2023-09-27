@@ -5,7 +5,7 @@ type Props = {};
 const StatusHero = (props: Props) => {
     return (
         <div className="flex justify-center my-5">
-            <div className="flex justify-around items-center border border-amber-100 bg-black-500  lg:w-1/3 w-1/2 px-2 py-3 rounded-2xl">
+            <div className="flex justify-around items-center border border-amber-100 bg-black-500  lg:w-1/3 w-[75%] px-2 py-3 rounded-2xl">
                 <div>
                     <h3 className=" text-amber-100 font-serif font-extrabold text-lg">
                         Todo Done
